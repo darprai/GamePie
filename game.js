@@ -1,4 +1,3 @@
-game.js
 /* game.js - GamePie complete engine
    - 10 progressive levels (Cat Mario style)
    - end-level pole sequence -> pick up girl -> carry to car
