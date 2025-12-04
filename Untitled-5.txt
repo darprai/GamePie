@@ -1,0 +1,13 @@
+assets/
+  sprites/
+    discoteca-bg.png      (sfondo)
+    player.png            (opzionale)
+    girl.png
+    golruk.png
+    heart.png
+    car.png
+    icon-192.png
+    icon-512.png
+  music/
+    music_normal.mp3      (loop per i livelli 1..9)
+    music_final.mp3       (loop per il livello 10)

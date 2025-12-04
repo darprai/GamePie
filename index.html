@@ -1,0 +1,40 @@
+index.html
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Pie Adventure: Golruk Saga</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- MENU PRINCIPALE -->
+    <div id="menu" class="center">
+        <h1>Pie Adventure</h1>
+        <button onclick="Game.startNew()">Nuova Partita</button>
+        <button onclick="Game.continue()">Continua</button>
+    </div>
+
+    <!-- CANVAS DI GIOCO -->
+    <canvas id="game" width="960" height="540"></canvas>
+
+    <!-- SCHERMATA FINALE -->
+    <div id="ending" class="center">
+        <h1>Pie diventa King</h1>
+        <p>Carica la foto finale da mostrare:</p>
+        <input type="file" accept="image/*" onchange="Ending.loadImage(event)">
+        <div id="finalImage"></div>
+        <h2>THE END...?</h2>
+    </div>
+
+    <!-- SCRIPT -->
+    <script src="engine.js"></script>
+    <script src="entities.js"></script>
+    <script src="game.js"></script>
+    <script src="boss_final.js"></script>
+    <script src="ending.js"></script>
+</body>
+</html>
+
