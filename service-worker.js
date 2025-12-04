@@ -1,4 +1,3 @@
-service-worker.js
 const CACHE_NAME = 'gamepie-cache-v1';
 const FILES = [
   './',
